@@ -7,16 +7,16 @@
 body div{
     div{
         h1{
-            line-height: 120%;
-            font-family: "Montserrat", sans-serif;
-            font-weight: 600;
-        }
-        p{
+            line-height: 110%;
             font-family: "Montserrat", sans-serif;
             font-weight: 500;
         }
+        p{
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+        }
         button {
-            border-radius: 0.3125rem;
+            border-radius: 0.2125rem;
             background: var(--primary-color, #23a6f0);
             display: flex;
             padding: 0.9375rem 2.5rem;
@@ -36,6 +36,6 @@ body div{
     }
 }
 .flex_container > div{
-    width: 100%;
+    width: 80%;
     display: flex;
 }
