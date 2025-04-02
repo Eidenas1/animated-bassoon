@@ -255,3 +255,17 @@
   255  git push
   256  git log --oneline --all --graph
   257  history > history.txt
+  258  git log --oneline --all --graph
+  259  git checkout main
+  260  git switch css_changes
+  261  git add .
+  262  git commit -m "Changed some of the CSS parameters"
+  263  git log --oneline --all --graph
+  264  git checkout main
+  265  git merge css_changes main
+  266  git log --oneline --all --graph
+  267  git push 
+  268  git log --oneline --all --graph
+  269  git push -u origin css_changes
+  270  git log --oneline --all --graph
+  271  history > history.txt
